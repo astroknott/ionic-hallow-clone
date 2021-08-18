@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ionic-hallow-clone",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
