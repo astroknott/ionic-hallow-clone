@@ -1,0 +1,97 @@
+ion-toolbar {
+    --color: #fff;
+    --background: transparent;
+    --min-height: 4.5rem;
+
+    ion-icon {
+	font-size: 3rem;
+	margin-right: 1rem;
+    }
+}
+
+ion-title {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.category-text {
+    font-size: .6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+    line-height: 1;
+}
+
+.description {
+    margin: 0;
+    font-size: .8rem;
+    line-height: 1;
+}
+
+.spotlight {
+    height: 58vh;
+    background-position: bottom;
+    display: flex;
+    background-size: auto 120%;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: -4.5rem;
+    transition: background-size .05s;
+    will-change: background-size;
+}
+
+ion-content {
+    --color: #fff;
+    --margin-bottom: 3rem;
+}
+
+.actions {
+    height: 21vw;
+    gap: .3rem;
+    
+    ion-button {
+	flex-grow: 1;
+	height: 100%;
+	position: relative;
+	--background: var(--ion-color-dark-tint);
+	--border-radius: 20px;
+    }
+
+    ion-icon {
+	font-size: 1.5rem;
+    }
+}
+
+ion-slide {
+    display: block;
+    text-align: left;
+
+    img {
+	border-radius: 10px;
+    }
+}
+
+.multi-slide-item {
+    display: block;
+    height: 70px;
+    margin-bottom: 1rem;
+
+    img {
+	float: left;
+	margin-right: 10px;
+	height: 70px;
+	width: 70px;
+	object-fit: cover;
+    }
+}

@@ -1,0 +1,130 @@
+<ion-header [translucent]="true" collapse class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Up Next</ion-title>
+    <ion-icon slot="secondary" name="search-circle"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content
+  [fullscreen]="true"
+  scrollEvents="true"
+  [appImageShrink]="spotlight"
+>
+  <div
+    #spotlight
+    class="spotlight ion-padding"
+    style="background-image: url(https://picsum.photos/360/400)"
+  >
+    <span class="category-text">Dailies</span>
+    <h3>St. Helena</h3>
+    <p class="description">
+      Today we'll ask for the intercession of the mother of the emperor
+      Constantine, who used her position to provide for the poor.
+    </p>
+  </div>
+
+  <div class="ion-padding">
+    <ion-row class="ion-justify-content-between px-3 actions ion-margin-bottom">
+      <ion-button size="large">
+        <ion-icon slot="icon-only" name="star-outline"></ion-icon>
+      </ion-button>
+      <ion-button size="large">
+        <ion-icon slot="icon-only" name="download-outline"></ion-icon>
+      </ion-button>
+      <ion-button size="large">
+        <ion-icon slot="icon-only" name="calendar-outline"></ion-icon>
+      </ion-button>
+      <ion-button size="large">
+        <ion-icon slot="icon-only" name="time-outline"></ion-icon>
+      </ion-button>
+    </ion-row>
+
+    <h2>Dr.Scott Hahn</h2>
+
+    <ion-slides class="ion-margin-bottom" [options]="mainSlideOpts">
+      <ion-slide>
+        <img src="https://picsum.photos/200/149" />
+        <ion-text color="medium" class="category-text">Guests</ion-text>
+        <h3>Rosary</h3>
+        <p class="description">With Dr. Scott Hahn</p>
+      </ion-slide>
+      <ion-slide>
+        <img src="https://picsum.photos/200/150" />
+        <ion-text color="medium" class="category-text">Guests</ion-text>
+        <h3>Litany of Loreto</h3>
+        <p class="description">With Dr. Scott Hahn</p>
+      </ion-slide>
+      <ion-slide>
+        <img src="https://picsum.photos/200/151" />
+        <ion-text color="medium" class="category-text">Guests</ion-text>
+        <h3>Rosary</h3>
+        <p class="description">With Dr. Scott Hahn</p>
+      </ion-slide>
+    </ion-slides>
+
+    <h2>Morning Routines</h2>
+
+    <ion-slides class="multi-item-slides" [options]="multiItemSlideOpts">
+      <ion-slide>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/152" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/153" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/154" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/155" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/156" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/147" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/146" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/145" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+        <div class="multi-slide-item">
+          <img src="https://picsum.photos/200/144" />
+          <ion-text color="medium" class="category-text">Guests</ion-text>
+          <h3>Rosary</h3>
+          <p class="description">With Dr. Scott Hahn</p>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>
